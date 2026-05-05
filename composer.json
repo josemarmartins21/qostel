@@ -1,0 +1,17 @@
+{
+    "name": "qostel/qos",
+    "description": "Página web da QoS Tel",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Qostel\\Qos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "josemarmartins21",
+            "email": "josemar21@outlook.pt"
+        }
+    ],
+    "require": {}
+}
