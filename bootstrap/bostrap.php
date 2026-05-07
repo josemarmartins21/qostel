@@ -5,5 +5,5 @@ require_once "vendor/autoload.php";
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-dd(testimony());
-
+$testimonies = testimony()->getResources(); 
+$questions = questions()->getResources();

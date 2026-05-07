@@ -383,7 +383,7 @@ section#sobre h2 {
 section#perguntas {
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     padding-bottom: 150px;
     /* MOD: adiciona espaçamento entre imagem e conteúdo */
     gap: 30px;
