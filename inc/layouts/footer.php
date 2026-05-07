@@ -32,7 +32,7 @@
                 <li><a href="#perguntas" class="link-mapa">Perguntas Frequentes</a></li>
                 <li><a href="#sobre" class="link-mapa">Quem Somos</a></li>
                 <li><a href="#diferenciais" class="link-mapa">Diferenciais da Empresa</a></li>
-                <li><a href="#" class="link-mapa">Contacta-nos</a></li>
+                <li><a href="#" class="link-mapa">Contacte-nos</a></li>
             </ul>
         </div>
         <div class="infor">
