@@ -383,6 +383,7 @@ section#sobre h2 {
 section#perguntas {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
     padding-bottom: 150px;
     /* MOD: adiciona espaçamento entre imagem e conteúdo */
     gap: 30px;
@@ -848,7 +849,7 @@ section#contactos {
             padding-top: 30px;
         }
     }
-    
+
     div#fundo-preto {
         padding: 0;
         background-position: right top;
@@ -1106,6 +1107,11 @@ section#contactos {
         input[type=submit]:active {transform: scale(.98);}
     }
     #disclaimer-suporte {display: none !important; }
+}
 
 
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    body {
+        background-color: black !important;
+    }
 }

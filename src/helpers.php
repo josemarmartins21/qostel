@@ -25,3 +25,9 @@ function textLimit(
 {
     return mb_substr($text, 0, $max) . $endWith;
 }
+
+function dd($data): void
+{
+    var_dump($data);
+    die;    
+}

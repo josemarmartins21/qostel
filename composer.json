@@ -8,7 +8,8 @@
         },
 
         "files": [
-            "src/helpers.php"
+            "src/helpers.php",
+            "src/init.php"
         ]
     },
     "authors": [

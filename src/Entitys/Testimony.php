@@ -1,10 +1,9 @@
 <?php
 
 namespace Qostel\Qos\Entitys;
+use Qostel\Qos\Database\Database;
 
-use Qostel\Qos\Entitys\contracts\Resource;
-
-class Testimony implements Resource
+class Testimony extends Database
 {
     
 }
