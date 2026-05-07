@@ -5,7 +5,11 @@
     "autoload": {
         "psr-4": {
             "Qostel\\Qos\\": "src/"
-        }
+        },
+
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
@@ -13,5 +17,7 @@
             "email": "josemar21@outlook.pt"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }

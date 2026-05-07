@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'QoS Tel')</title>
+    <title><?= str_replace('_', ' ', $_ENV['APP_NAME']) ?></title>
     <link rel="stylesheet" href="../../assets/css/index.css">
 
     <link rel="shortcut icon" href="../../assets/images/qos-logo-sem-fundo.png" type="image/x-icon">
