@@ -325,9 +325,9 @@ aside.difereciais-card > span {
 
 .depoimento {
     padding: 20px 20px 40px 20px;
-    flex: 0 1 320px;
+    flex: 0 1 360px;
     /* MOD: permite altura automática para textos maiores */
-    height: 220px;
+    height: 280px;
     border-radius: 10px;
     box-shadow: var(--card-sombras);
     display: flex;
@@ -725,7 +725,7 @@ div.foot  > p {
     text-align: center;
     padding: 13px 0px;
 }
-#redes-container a {color: white; text-decoration: none;}
+#redes-container a {color: white; text-decoration: none; margin-right: 5px;}
 #redes-container i {font-size: 24px; transition: color .3s;}
 
 #redes-container i:hover {color: #049DBF;}
@@ -837,15 +837,18 @@ section#contactos {
 
     header {
         /* MOD: mantém consistência do padding do header em mobile */
-        padding: 5px !important;
+        background-color: var(--cor-principal);
+        width: 100vw;
         display: grid;
         grid-template-columns: auto auto;
-        width: 100vw;
-        background-color: var(--cor-principal);
-        position: relative;
-        z-index: 100 !important;
-    }
+        grid-template-rows: 25px auto;
+        padding: 8px 5px 10px 5px !important;
 
+        .hamburguer-container {
+            padding-top: 30px;
+        }
+    }
+    
     div#fundo-preto {
         padding: 0;
         background-position: right top;
@@ -898,6 +901,10 @@ section#contactos {
      #logo, header .hamburguer-container {
         flex: 0 1 40%;
     
+    }
+
+    #logo img {
+        width: 150px;    
     }
 
     .hamburguer-container {
@@ -988,7 +995,7 @@ section#contactos {
     
 
    section#perguntas article h2 {
-        text-align: left;
+        text-align: center;
     }
 
    

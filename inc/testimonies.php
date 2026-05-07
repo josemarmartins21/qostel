@@ -6,7 +6,7 @@
         </div>
     
         <p>
-            <?= substr("Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint ut placeat quibusdam nesciunt eum modi atque dolorem vel quidem. Numquam voluptates voluptatem nihil reiciendis amet consequuntur illum architecto in?", 0, 115) . '...'  ?>
+            <?= textLimit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint ut placeat quibusdam nesciunt eum modi atque dolorem vel quidem. Numquam voluptates voluptatem nihil reiciendis amet consequuntur illum architecto in?", 140)  ?>
             
         </p>
     </div>
@@ -16,7 +16,7 @@
         </div>
     
         <p>
-            <?= substr("Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint ut placeat quibusdam nesciunt eum modi atque dolorem vel quidem. Numquam voluptates voluptatem nihil reiciendis amet consequuntur illum architecto in?", 0, 115) . '...'  ?>
+            <?= textLimit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint ut placeat quibusdam nesciunt eum modi atque dolorem vel quidem. Numquam voluptates voluptatem nihil reiciendis amet consequuntur illum architecto in?", 115)  ?>
             
         </p>
     </div>
@@ -26,7 +26,7 @@
         </div>
     
         <p>
-            <?= substr("Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint ut placeat quibusdam nesciunt eum modi atque dolorem vel quidem. Numquam voluptates voluptatem nihil reiciendis amet consequuntur illum architecto in?", 0, 115) . '...'  ?>
+            <?= textLimit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint ut placeat quibusdam nesciunt eum modi atque dolorem vel quidem. Numquam voluptates voluptatem nihil reiciendis amet consequuntur illum architecto in?", 115)  ?>
             
         </p>
     </div>

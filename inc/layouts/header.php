@@ -15,18 +15,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Link do Google Font  -->
-
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body id="corpo">
-<div id="background" style="">
+<div id="background" style="background-image: url(../../assets/images/predio.jpg);">
             <div class="fundo-preto">
-            <header>
+            <header id="header-container">
                 <div id="logo">
-                        <a href="index.html">
-                            <img src="{{ asset('images/company_images/' . $companyInfos['logotipo']?->value) }}" alt="logo da qos_tel">
-                        </a>
+                    <a href="index.html">
+                        <img src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel">
+                    </a>
 
                 </div>
                 

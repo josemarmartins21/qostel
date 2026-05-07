@@ -16,7 +16,6 @@
             <h3>Contactos</h3>
             <p class="barra"></p>
             <p>Em caso de dúvidas ou sugestões, <br>contacte-nos.</p>
-            <p>Endereço e Telefones</p>
 
             <ul>
                 <li><strong>Email:</strong> </li>
@@ -50,7 +49,6 @@
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="rede-social-card">
                         <i class="bi bi-facebook"></i>
                     </a>
-
 
                     <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="rede-social-card" class="rede-social-card">
                         <i class="bi bi-instagram"></i>

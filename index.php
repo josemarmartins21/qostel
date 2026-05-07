@@ -5,8 +5,8 @@ require_once "bootstrap/bostrap.php";
 $filesName = [
     'diferenciais.php',
     'frequent-questions.php',
-    'renowned-clients.php',
     'testimonies.php',
+    'renowned-clients.php',
     'location.php',
     'support.php',
 

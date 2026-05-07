@@ -1,5 +1,7 @@
 /*Perguntas Frequentes FAQ */
 var perguntasContainer = document.querySelectorAll('.pergunta-container')
+var header = document.getElementById('header-container')
+
 
 perguntasContainer.forEach((container) => {
     var mostrar = container.querySelector('#mostrar')
@@ -36,10 +38,12 @@ janela.addEventListener('resize', mostrarHamburguer)
 menu.addEventListener('click', (e) => {
     if (e.target.id == 'menu-hamburguer') {
         if (!menuContainer.classList.contains('menu-open')) {
+            header.style.gap = '35px'
             menuContainer.classList.add('menu-open')
             menuContainer.style.maxHeight = menuContainer.scrollHeight + 'px'
         } else {
             menuContainer.style.maxHeight = '0px'
+            header.style.gap = '0px'
             menuContainer.classList.remove('menu-open')
         } 
     }
