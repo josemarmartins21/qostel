@@ -11,11 +11,10 @@ class Testimony extends Database
     {
         try {
 
-            $query = "SELECT c.name,
-                            t.testimony AS testemunho
-                    FROM testimonies AS t JOIN clients as c
-                    ON t.client_id = c.id WHERE is_active = :estado
-                    ORDER BY c.name LIMIT :max";
+            $query = "SELECT c.name, c.company_role cargo, t.testimony AS testemunho FROM testimonies AS t JOIN clients as c
+            ON t.client_id = c.id 
+            WHERE is_active = :estado
+            ORDER BY c.name LIMIT :max";
 
 
             $stmt = $this->connection->prepare($query);

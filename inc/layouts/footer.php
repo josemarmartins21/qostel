@@ -1,16 +1,15 @@
 <footer>
     <div class="informacoes">
         <div class="infor">
-                <div class="logo-foot">
+                <a href="http://127.0.0.1:8000/" class="logo-foot">
                     <img 
-                        src="" alt="logo da qos_tel"
+                        src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel"
                     >
-                </div>
+                </a>
 
             <a href="#" class="zona-restrita" target="_blank">
                 <i class="bi bi-lock-fill"></i> Zona Restrita
             </a>
-            
         </div>
         <div class="infor">
             <h3>Contactos</h3>
@@ -18,8 +17,8 @@
             <p>Em caso de dúvidas ou sugestões, <br>contacte-nos.</p>
 
             <ul>
-                <li><strong>Email:</strong> </li>
-                <li><strong>Telefone:</strong> </li>
+                <li><strong>Email:</strong> comercial@qostel.co.ao</li>
+                <li><strong>Telefone:</strong> (+244) 924 910 904 / 222 000 00</li>
             </ul>
         </div>
         <div class="infor">
@@ -31,7 +30,7 @@
                 <li><a href="#perguntas" class="link-mapa">Perguntas Frequentes</a></li>
                 <li><a href="#sobre" class="link-mapa">Quem Somos</a></li>
                 <li><a href="#diferenciais" class="link-mapa">Diferenciais da Empresa</a></li>
-                <li><a href="#" class="link-mapa">Contacte-nos</a></li>
+                <li><a href="http://app.qostel.co.ao/visitors/create" class="link-mapa">Contacte-nos</a></li>
             </ul>
         </div>
         <div class="infor">
@@ -46,11 +45,11 @@
             </p>
             
             <div id="redes-container">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="rede-social-card">
+                    <a href="https://www.facebook.com/profile.php?id=100092364702262" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="rede-social-card">
                         <i class="bi bi-facebook"></i>
                     </a>
 
-                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="rede-social-card" class="rede-social-card">
+                    <a href="https://www.instagram.com/qos_tel/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="rede-social-card" class="rede-social-card">
                         <i class="bi bi-instagram"></i>
                     </a>
             </div>

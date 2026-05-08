@@ -6,9 +6,12 @@
  * 
  * @return string
  */
-function inc_path(string $fileName): string
+function inc_path(string $fileName, ?bool $isAbsolutePath = false): string
 {
-    return 'inc/' . $fileName;
+    if (! $isAbsolutePath) {
+        return 'inc/' . $fileName;
+    }
+    return '/inc/' . $fileName;
 }
 
 /**

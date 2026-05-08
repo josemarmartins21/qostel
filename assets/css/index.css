@@ -352,9 +352,14 @@ aside.difereciais-card > span {
     
 }
 
+.depoimento div {
+    text-transform: capitalize;
+}
+
 .depoimento h4 {
     font-weight: bolder;
     font-size: 1.4em;
+    
 }
 
 /* Velocidade e perfomance */
@@ -595,8 +600,8 @@ div.informacoes {
     padding: 10px;
 }
 
-
-.logo-foot > img {
+a.logo-foot {display: block;}
+a.logo-foot > img {
     width: 200px;    
 }
 

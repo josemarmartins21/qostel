@@ -1,6 +1,6 @@
 <?php
 
-require_once "bootstrap/bostrap.php";
+require_once __DIR__ . "/bootstrap/bootstrap.php";
 
 $filesName = [
     'diferenciais.php',
@@ -16,7 +16,7 @@ require_once "inc/layouts/header.php";
 
 foreach ($filesName as $file) {
     if (file_exists(inc_path($file))) {
-        include_once inc_path($file);
+        include_once __DIR__ . inc_path($file, true);
     }
 }
 

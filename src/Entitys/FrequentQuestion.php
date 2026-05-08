@@ -18,7 +18,7 @@ class FrequentQuestion extends Database
             $stmt = $this->connection->prepare($query);
     
             $stmt->bindValue('estado', 1, PDO::PARAM_INT);
-            $stmt->bindValue('max', 5, PDO::PARAM_INT);
+            $stmt->bindValue('max', 6, PDO::PARAM_INT);
 
             $stmt->execute();
 

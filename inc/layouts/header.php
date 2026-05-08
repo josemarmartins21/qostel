@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= str_replace('_', ' ', $_ENV['APP_NAME']) ?></title>
+    <title><?= htmlspecialchars(str_replace('_', ' ', $_ENV['APP_NAME'])) ?></title>
     <link rel="stylesheet" href="../../assets/css/index.css">
 
     <link rel="shortcut icon" href="../../assets/images/qos-logo-sem-fundo.png" type="image/x-icon">
@@ -65,8 +65,8 @@
                     </h3>
                     <a href="#diferenciais">Ver Serviços</a>
                 </section>
-                <a href="https://wa.me/244{{ $companyInfos['whatsapp']?->value }}?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20internet." class="float-btn">
-                    <i class="bi bi-whatsapp"></i>
+                <a href="https://wa.me/244924910904?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20internet." class="float-btn">
+                    <i class="bi bi-whatsapp"></i>  
                 </a>
             </div>
         </div>
