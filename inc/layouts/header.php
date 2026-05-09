@@ -39,7 +39,7 @@
                             <a href="#background" class="link">Home</a>
                         </li>
                         <li class="link-target">
-                            <a href="#sobre" class="link">Quem Somos</a>
+                            <a href="http://127.0.0.1:8000/?page=sobre#sobre" class="link">Quem Somos</a>
                         </li>
                         <li class="link-target">
                             <a href="#diferenciais" class="link">Serviços</a>

@@ -2,7 +2,13 @@
 <section id="sobre">
     <h2>Quem Somos?</h2>
     
-    <article>
+    <article id="sobre-container">
+        <aside id="image-container">
+            <img src="../assets/images/torre-pq.jpg" alt="imagem de torre" class="image-pq">
+            <img src="../assets/images/torre-md.jpg" alt="imagem de torre" class="image-lg">
+            <img src="../assets/images/cabos.jpg" alt="imagem de torre" class="image-md">
+        </aside>
+
         <p>
             A QoS Tel é uma empresa de direito angolano,
             Licenciada pelo INACOM, vocacionada na oferta de
