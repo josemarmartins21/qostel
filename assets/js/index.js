@@ -38,12 +38,12 @@ janela.addEventListener('resize', mostrarHamburguer)
 menu.addEventListener('click', (e) => {
     if (e.target.id == 'menu-hamburguer') {
         if (!menuContainer.classList.contains('menu-open')) {
-            header.style.gap = '35px'
+            addGap(header, '35px')
             menuContainer.classList.add('menu-open')
             menuContainer.style.maxHeight = menuContainer.scrollHeight + 'px'
         } else {
             menuContainer.style.maxHeight = '0px'
-            header.style.gap = '0px'
+            removeAllGap(header)
             menuContainer.classList.remove('menu-open')
         } 
     }
@@ -66,11 +66,19 @@ janela.addEventListener('scroll', () => {
         if (menuContainer.classList.contains('menu-open')) {
             menuContainer.style.maxHeight = '0px'
             menuContainer.classList.remove('menu-open')
+            removeAllGap(header)
         }
         
     }
 })
 
+function addGap(element, size) {
+    element.style.gap = size
+}
+
+function removeAllGap(element) {
+    element.style.gap = '0px'
+}
 
 
 

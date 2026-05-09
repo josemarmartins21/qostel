@@ -48,7 +48,7 @@
                             <a href="#prova-social-container" class="link">Clientes</a>
                         </li>
                         <li class="link-target">
-                            <a href="{{ route('visitors.create') }}" class="link">Contato</a>
+                            <a href="http://app.qostel.co.ao/visitors/create" class="link">Contato</a>
                         </li>
                         <li class="link-target">
                             <a href="#perguntas" class="link">Perguntas Frequentes</a>

@@ -15,7 +15,7 @@ abstract class Database
         try {
             $this->connection = new PDO(
                 'mysql:host=' . $_ENV['DB_HOST'] . ";dbname=" . $_ENV['DB_DATABASE'], 
-                $_ENV['DB_USER'], 
+                $_ENV['DB_USERNAME'], 
                 $_ENV['DB_PASSWORD']
             );
 

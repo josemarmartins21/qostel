@@ -3,6 +3,7 @@
 require_once __DIR__ . "/bootstrap/bootstrap.php";
 
 $filesName = [
+    'sobre.php',
     'diferenciais.php',
     'frequent-questions.php',
     'testimonies.php',

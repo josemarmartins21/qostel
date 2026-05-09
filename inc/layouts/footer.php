@@ -1,7 +1,7 @@
 <footer>
     <div class="informacoes">
         <div class="infor">
-                <a href="http://127.0.0.1:8000/" class="logo-foot">
+                <a href="http://app.qostel.co.ao/visitors/create" class="logo-foot">
                     <img 
                         src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel"
                     >
