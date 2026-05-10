@@ -1,13 +1,13 @@
 <footer>
     <div class="informacoes">
         <div class="infor">
-                <a href="http://app.qostel.co.ao/visitors/create" class="logo-foot">
+                <a href="http://127.0.0.1:8000/" class="logo-foot">
                     <img 
                         src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel"
                     >
                 </a>
 
-            <a href="#" class="zona-restrita" target="_blank">
+            <a href="http://app.qostel.co.ao/dashboard" class="zona-restrita" target="_blank">
                 <i class="bi bi-lock-fill"></i> Zona Restrita
             </a>
         </div>

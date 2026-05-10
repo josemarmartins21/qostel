@@ -149,22 +149,18 @@ header a {
 a.float-btn {
     display: block;
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
-    padding: 15px;
+    padding: 22px;
     background-color: #2bb714;
     color: white;
     aspect-ratio: 1/1;
     border-radius: 50%;
     font-size: 1.5em;
     z-index: 1000;
+    font-size: 24px;
     text-decoration: none;
-    opacity: .7;
     transition: opacity .5s ease-out;
-}
-
-a.float-btn:hover {
-    opacity: 1;
 }
 
 a.float-btn:active {
