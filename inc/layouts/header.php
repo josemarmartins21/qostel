@@ -23,7 +23,7 @@
             <div class="fundo-preto">
             <header id="header-container">
                 <div id="logo">
-                    <a href="index.html">
+                    <a href="https://qostel.co.ao/">
                         <img src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel">
                     </a>
 
@@ -39,7 +39,7 @@
                             <a href="#background" class="link">Home</a>
                         </li>
                         <li class="link-target">
-                            <a href="http://127.0.0.1:8000/?page=sobre#sobre" class="link">Quem Somos</a>
+                            <a href="https://qostel.co.ao/?page=sobre#sobre" class="link">Quem Somos</a>
                         </li>
                         <li class="link-target">
                             <a href="#diferenciais" class="link">Serviços</a>
