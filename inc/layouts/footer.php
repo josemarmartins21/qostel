@@ -1,7 +1,7 @@
 <footer>
     <div class="informacoes">
         <div class="infor">
-                <a href="http://127.0.0.1:8000/" class="logo-foot">
+                <a href="https://qostel.co.ao" class="logo-foot">
                     <img 
                         src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel"
                     >
@@ -26,10 +26,10 @@
             <p class="barra"></p>
             
             <ul>
-                <li><a href="#background" class="link-mapa">Inicio</a></li>
-                <li><a href="#perguntas" class="link-mapa">Perguntas Frequentes</a></li>
-                <li><a href="#sobre" class="link-mapa">Quem Somos</a></li>
-                <li><a href="#diferenciais" class="link-mapa">Diferenciais da Empresa</a></li>
+                <li><a href="https://qostel.co.ao/#background" class="link-mapa">Inicio</a></li>
+                <li><a href="https://qostel.co.ao/#perguntas" class="link-mapa">Perguntas Frequentes</a></li>
+                <li><a href="https://qostel.co.ao/#sobre" class="link-mapa">Quem Somos</a></li>
+                <li><a href="https://qostel.co.ao/#diferenciais" class="link-mapa">Diferenciais da Empresa</a></li>
                 <li><a href="http://app.qostel.co.ao/visitors/create" class="link-mapa">Contacte-nos</a></li>
             </ul>
         </div>
