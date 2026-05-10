@@ -5,7 +5,7 @@
             <?php foreach($renownedClients->getResources() as $client): ?>
                 <a href="<?= htmlspecialchars($client->url) ?>" title="<?= htmlspecialchars($client->name) ?>" target="_blank" >
                     <img
-                        src="<?= htmlspecialchars('../assets/images/logos_client/' . $client->logo) ?>"
+                        src="../assets/images/logos_client/<?= htmlspecialchars($client->logo) ?>"
                         alt="<?= htmlspecialchars($client->name) ?>"
                         class="logo-empresa"
                     >
