@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: #F3F5FA;
+    background-color: #ffff;
     min-height: 100vh;
     position: relative;
     transition: height .3s width .3s;
@@ -31,6 +31,15 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+
+#barra {
+    height: 10px;
+    width: 70px;
+    margin: 0 auto;
+    background-color: orange;
+    margin-bottom: 30px;
 }
 
 p {
@@ -179,7 +188,7 @@ section#diferenciais {
 
 section#diferenciais h2 {
     text-align: center;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     font-weight: 700;
 }
 
@@ -465,6 +474,7 @@ section#suporte a:hover {
     align-items: center;
     height: auto;
     padding: 15px 0;
+    background-color: #F3F5FA;
 
     h2 {color: black;}
 }
@@ -1003,7 +1013,7 @@ section#contactos {
     /* Suporte */
     section#suporte {
         flex-flow: column nowrap;
-
+        height: 250px;
     }
 
     section#suporte p {
@@ -1016,17 +1026,15 @@ section#contactos {
 
     /* Sobre */
     #sobre {
-        padding: 0 10px;
         background-color: transparent !important;
+        padding: 0 10px;
+        margin-top: 100px !important;
 
         h2 {display: none !important;}
     }
 
     #sobre-container {
         flex-flow: column nowrap;
-        margin-top: 0px !important;
-
-       
 
         aside {
             img.image-lg {display: none}
@@ -1087,10 +1095,6 @@ section#contactos {
 
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    body {
-        
-    }
-
     header {
         flex-flow: column nowrap;
         padding-bottom: 15px;
@@ -1159,6 +1163,7 @@ section#contactos {
 
     /* SUPPORT */
     section#suporte {
+        height: 200px;
         flex-flow: column nowrap;
     }
 

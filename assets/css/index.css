@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #F3F5FA;
+  background-color: white;
   min-height: 100vh;
   position: relative;
   transition: height 0.3s width 0.3s;
@@ -31,6 +31,14 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+#barra {
+  height: 10px;
+  width: 70px;
+  margin: 0 auto;
+  background-color: orange;
+  margin-bottom: 30px;
 }
 
 p {
@@ -177,7 +185,7 @@ section#diferenciais {
 
 section#diferenciais h2 {
   text-align: center;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
   font-weight: 700;
 }
 
@@ -228,9 +236,8 @@ aside.difereciais-card > span {
 }
 
 /* Depoimento de clientes */
-#depoimento-de-clientes {
-  background-color: white;
-  padding: 200px 0 150px 0 !important;
+#depoimento-container {
+  padding: 50px 0 150px 0 !important;
   display: flex;
   gap: 30px;
   flex-flow: row wrap;
@@ -242,7 +249,7 @@ aside.difereciais-card > span {
 #depoimento-de-clientes > h2 {
   flex: 0 1 100%;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   font-weight: 700;
 }
 
@@ -453,10 +460,12 @@ section#suporte a:hover {
   display: flex;
   align-items: center;
   height: auto;
-  padding: 50px 0;
+  padding: 15px 0;
+  background-color: #F3F5FA;
 }
 #prova-social-container h2 {
   color: black;
+  margin-bottom: 20px;
 }
 
 #logos-container {
@@ -488,7 +497,7 @@ section#suporte a:hover {
 }
 
 .fundo-preto-2 h2 {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   text-align: center;
   font-size: 3em;
   color: white;
@@ -505,7 +514,7 @@ section#localizacao {
 }
 
 section#localizacao > h2 {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 3em;
 }
@@ -513,6 +522,7 @@ section#localizacao > h2 {
 section#localizacao iframe {
   display: block;
   margin: auto;
+  margin-top: 66px;
   /* MOD: deixa o mapa responsivo sem perder proporção */
   width: min(900px, 100%);
   aspect-ratio: 16/9;
@@ -954,6 +964,7 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   /* Suporte */
   section#suporte {
     flex-flow: column nowrap;
+    height: 250px;
   }
   section#suporte p {
     text-align: center;
@@ -963,15 +974,15 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   }
   /* Sobre */
   #sobre {
-    padding: 0 10px;
     background-color: transparent !important;
+    padding: 0 10px;
+    margin-top: 100px !important;
   }
   #sobre h2 {
     display: none !important;
   }
   #sobre-container {
     flex-flow: column nowrap;
-    margin-top: 0px !important;
   }
   #sobre-container aside img.image-lg {
     display: none;
@@ -1078,6 +1089,7 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   }
   /* SUPPORT */
   section#suporte {
+    height: 200px;
     flex-flow: column nowrap;
   }
 }
