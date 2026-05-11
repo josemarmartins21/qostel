@@ -1,5 +1,6 @@
 <section id="diferenciais">
     <h2>Diferenciais da QoS Tel para outras ISP</h2>
+    <?php include __DIR__ . "/components/barra.php"; ?>
 
     <article>
             <aside class="difereciais-card">
