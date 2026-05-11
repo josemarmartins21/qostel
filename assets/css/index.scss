@@ -21,7 +21,8 @@
     font-family: var(--font-family);
 }
 
-body, html {
+body {
+    background-color: #F3F5FA;
     min-height: 100vh;
     position: relative;
     transition: height .3s width .3s;
@@ -52,7 +53,6 @@ h2 {
     background-position: center top !important; 
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
 }
 
 .fundo-preto {
@@ -170,8 +170,10 @@ a.float-btn:active {
 /* Nossos diferenciais */
 
 section#diferenciais {
-    margin-bottom: 250px;
-    margin-top: 170px;
+    padding-bottom: 300px;
+    padding-top: 170px;
+
+    background-color: #fff;
     
 }
 
@@ -231,10 +233,8 @@ aside.difereciais-card > span {
 /* Depoimento de clientes */
 
 #depoimento-de-clientes {
-    margin: 100px 0 150px 0;
-}
-
-#depoimento-de-clientes {
+    background-color: #ffff;
+    padding: 200px 0 150px 0 !important;
     display: flex;
     gap: 30px;
     flex-flow: row wrap;
@@ -331,6 +331,7 @@ section#sobre h2 {
 /* Perguntas frequentes */
 
 section#perguntas {
+    background-color: #ffff;
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
@@ -421,7 +422,7 @@ div.pergunta {
 /* Suporte */
 
 section#suporte {
-    height: 220px;
+    height: 130px;
     padding: 0 15px;
     margin: 250px 0 290px 0;
     background-color: var(--cor-principal);
@@ -459,14 +460,13 @@ section#suporte a:hover {
 
 /* Prova Social */
 #prova-social-container {
-    height: auto;
-    background: var(--cor-principal) url(../img/61765.jpg) no-repeat center center;
-    background-size: cover;
-    margin: 200px 0;
-    padding-bottom: 100px;
     /* MOD: garante que o conteúdo fique centralizado verticalmente */
     display: flex;
     align-items: center;
+    height: auto;
+    padding: 100px 0;
+
+    h2 {color: black;}
 }
 
 #logos-container {
@@ -509,10 +509,11 @@ section#suporte a:hover {
 /* Localização */
 
 section#localizacao {
+    background-color: #ffff;
     margin-bottom: 200px;
     margin-top: 200px;
     /* MOD: padding lateral para manter alinhamento com outras seções */
-    padding: 0 4vw;
+    padding: 100px 4vw;
 }
 
 section#localizacao > h2 {
