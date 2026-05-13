@@ -1,6 +1,6 @@
 <section id="prova-social-container">
     <div class="fundo-preto-2">
-        <h2>Nossos Clientes</h2>
+        <h2>Nossos <mark>Principais Clientes</mark></h2>
         <?php include __DIR__ . "/components/barra.php"; ?>
 
         <div id="logos-container">

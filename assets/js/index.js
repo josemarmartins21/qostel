@@ -2,7 +2,6 @@
 var perguntasContainer = document.querySelectorAll('.pergunta-container')
 var header = document.getElementById('header-container')
 
-
 perguntasContainer.forEach((container) => {
     var mostrar = container.querySelector('#mostrar')
     var esconder = container.querySelector('#esconder')
@@ -60,6 +59,7 @@ function mostrarHamburguer() {
     }
 }
 
+
 /* Deixar de exibir a lista de links  */
 janela.addEventListener('scroll', () => {
     if (janela.innerWidth <= 600) {
@@ -72,12 +72,19 @@ janela.addEventListener('scroll', () => {
     }
 })
 
+
+
+
 function addGap(element, size) {
     element.style.gap = size
 }
 
 function removeAllGap(element) {
     element.style.gap = '0px'
+}
+
+function dd(value) {
+    console.log(value)
 }
 
 

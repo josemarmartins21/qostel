@@ -40,4 +40,6 @@ Antes de iniciares, garante que tens os seguintes componentes instalados:
 Com tudo configurado, podes iniciar o servidor de desenvolvimento com o seguinte comando:
 ```
 php -S 127.0.0.1:8000
+
+sass assets/css/index.scss assets/css/index.css --watch
 ```

@@ -62,21 +62,18 @@ h2 {
     background-position: center top !important; 
     background-repeat: no-repeat;
     background-size: cover;
-}
+    transition: background-image 0.5s ease-in-out;
 
-.fundo-preto {
-    background-color: rgba(0, 0, 0, 0.322);
-    min-height: 100vh;
-   
 }
 
 header {
+    width: 100% !important;	
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.329);
     display: flex;
     justify-content: space-between;
     /* MOD: adiciona respiro horizontal consistente no cabeçalho */
-    padding: 10px 6vw 0 6vw;
+    padding: 10px 10px 0 10px;
 }
 
 menu {
@@ -116,8 +113,8 @@ header a {
     display: none;
 }
 
-#hero {
-    height: 65vh;
+section#hero {
+    height: 60vh !important;
     color: white;
     display: flex;
     /* MOD: limita a largura do bloco para melhorar legibilidade em telas grandes */
@@ -179,7 +176,7 @@ a.float-btn:active {
 /* Nossos diferenciais */
 
 section#diferenciais {
-    padding-bottom: 300px;
+    padding-bottom: 170px;
     padding-top: 170px;
 
     background-color: #fff;
@@ -244,34 +241,36 @@ aside.difereciais-card > span {
 #depoimento-de-clientes {
     background-color: #ffff;
     padding: 200px 0 150px 0 !important;
-    display: flex;
-    gap: 30px;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
     /* MOD: adiciona padding lateral para evitar encostar nas bordas */
-    padding: 0 4vw;
 }
 
 #depoimento-de-clientes > h2 {
-    flex: 0 1 100%;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-weight: 700;
 }
 
+#depoimento-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .depoimento {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     padding: 20px 20px 40px 20px;
-    flex: 0 1 360px;
+    margin: 10px;
     /* MOD: permite altura automática para textos maiores */
     height: 280px;
     border-radius: 10px;
     box-shadow: var(--card-sombras);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: column nowrap;
     cursor: pointer;
-    gap: 20px;
+    flex: 0 1 360px;
     transition: transform .3s;
     transition-timing-function: ease-out;
 
@@ -298,7 +297,7 @@ aside.difereciais-card > span {
     
 }
 
-/* Velocidade e perfomance */
+/* SOBRE */
 section#sobre {
     /* MOD: centraliza e dá respiro lateral ao texto institucional */
     padding: 50px 30px;
@@ -344,7 +343,7 @@ section#perguntas {
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
-    padding-bottom: 150px;
+    padding-bottom: 170px;
     /* MOD: adiciona espaçamento entre imagem e conteúdo */
     gap: 30px;
     padding-left: 4vw;
@@ -510,11 +509,12 @@ section#suporte a:hover {
 }
 
 .fundo-preto-2 h2 {
-    padding: 50px 0;
+    padding: 0;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.2em;
     color: #ffff;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 /* Localização */
 
@@ -527,7 +527,7 @@ section#localizacao {
 }
 
 section#localizacao > h2 {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 3em;
 }
@@ -797,9 +797,9 @@ section#contactos {
     /* header */
 
     header {
+        position: absolute;
         /* MOD: mantém consistência do padding do header em mobile */
         background-color: var(--cor-principal);
-        width: 100vw;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: 25px auto;
@@ -821,10 +821,9 @@ section#contactos {
     menu ul {
         font-weight: bold;
         flex-flow: column nowrap;
-        align-items: center;
         flex: 1;
         gap: 50px;
-        padding: 40px 0;
+        padding: 50px 0 22px 20px;
 
     }
     header img {
@@ -879,7 +878,7 @@ section#contactos {
     #background {
         background-image: url(../img/hero-celular.jpg);
         background-position: center ;
-        min-height: 100vh;
+        height: 90vh !important;
        
     }
 
@@ -890,11 +889,11 @@ section#contactos {
     }
 
     section#hero {
+        height: 80vh !important;
         gap: 12px;
         margin: 0;
         padding-left: 20px;
         align-items: flex-start;
-        height: 90vh;
         max-width: 90%;
     }
 
@@ -929,13 +928,29 @@ section#contactos {
 
     section#depoimento-de-clientes {
         padding: 5px;
+        gap: 0;
     }
+
+    section#depoimento-de-clientes h2 {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+
     #depoimento-de-clientes {
         gap: 30px;
     }
 
-    .depoimento {
-        flex: 0 1 90%;
+    #depoimento-container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: center;
+    }
+
+    div.depoimento {
+        width: 90% !important;
+        flex-basis: auto;
         padding: 20px;
     }
 
@@ -981,6 +996,8 @@ section#contactos {
 
    }
    div.fundo-preto-2 {padding-bottom: 50px;}
+
+    div.fundo-preto-2 h2 {padding-bottom: 20px;}
    /* Sobre */
    section#sobre {
         padding: 0 5px;
@@ -998,7 +1015,7 @@ section#contactos {
     }
 
     section#localizacao > h2 {
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         text-align: center;
         font-size: 2em;
     
@@ -1117,11 +1134,36 @@ section#contactos {
 
     }
 
+    /** DEPOIMENTOS */
+    div#depoimento-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    section#depoimento-de-clientes {
+        display: block;
+
+        h2 {
+            padding-bottom: 20px !important; 
+
+        }
+    }    
+
+    .depoimento {
+        flex-basis: 320px;
+    }
+
     /** DIFERENCIAIS DA EMPRESA */
     section#diferenciais {margin-bottom: 98px !important;}
 
      aside.difereciais-card:hover {
         transform: scale(1);
+    }
+
+    section#diferenciais article {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     /** SOBRE A EMPRESA */
@@ -1159,6 +1201,13 @@ section#contactos {
 
     div#img-perguntas img {
         display: none;
+    }
+
+    /** NOSSA LOCALIZAÇÃO */
+    section#localizacao {
+        h2 {
+            margin-bottom: 20px;
+        }
     }
 
     /* SUPPORT */

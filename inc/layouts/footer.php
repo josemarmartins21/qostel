@@ -65,5 +65,6 @@
     </div>
 </footer>
     <script src="../../assets/js/index.js"></script>
+    <script src="../../assets/js/trocar-banner.js"></script>
 </body>
 </html>

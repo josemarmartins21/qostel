@@ -4,7 +4,7 @@
     </div>
     
     <article>
-        <h2>Perguntas frequentes</h2>
+        <h2>Perguntas frequente</h2>
             <?php foreach($questions->getResources() as $question): ?>
              <div class="pergunta-container">
                 <div class="pergunta">
