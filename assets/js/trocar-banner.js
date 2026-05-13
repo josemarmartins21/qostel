@@ -12,4 +12,4 @@ function trocarBanner() {
     banner.style.backgroundImage = "url('assets/images/" + banners[bannerActual] + "')"
 }
 
-setInterval(trocarBanner, 1000 * 5)
+setInterval(trocarBanner, 1000 * 45)
