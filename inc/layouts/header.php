@@ -37,22 +37,22 @@
             <menu id="menu-container">
                 <ul class="lista-links">
                     <li class="link-target">
-                        <a href="#background" class="link">Home</a>
+                        <a href="#background" class="link"><i class="fa-solid fa-hashtag cardinal"></i> Home</a> 
                     </li>
                     <li class="link-target">
-                        <a href="https://qostel.co.ao/?page=sobre#sobre" class="link">Quem Somos</a>
+                        <a href="https://qostel.co.ao/?page=sobre#sobre" class="link"><i class="fa-solid fa-hashtag cardinal"></i>  Quem Somos</a>
                     </li>
                     <li class="link-target">
-                        <a href="#diferenciais" class="link">Serviços</a>
+                        <a href="#diferenciais" class="link"><i class="fa-solid fa-hashtag cardinal"></i>   Serviços</a>
                     </li>
                     <li class="link-target">
-                        <a href="#prova-social-container" class="link">Clientes</a>
+                        <a href="#prova-social-container" class="link"><i class="fa-solid fa-hashtag cardinal"></i>  Clientes</a>
                     </li>
                     <li class="link-target">
-                        <a href="http://app.qostel.co.ao/visitors/create" class="link">Contacto</a>
+                        <a href="http://app.qostel.co.ao/visitors/create" class="link"><i class="fa-solid fa-hashtag cardinal"></i>  Contacto</a>
                     </li>
                     <li class="link-target">
-                        <a href="#perguntas" class="link">Perguntas Frequentes</a>
+                        <a href="#perguntas" class="link"><i class="fa-solid fa-hashtag cardinal"></i>  Perguntas Frequentes</a>
                     </li>
                 </ul>
             </menu>

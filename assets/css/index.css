@@ -41,6 +41,10 @@ html {
   margin-bottom: 30px;
 }
 
+.cardinal {
+  display: none !important;
+}
+
 p {
   line-height: 1.8em;
 }
@@ -808,6 +812,9 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   }
   #logo-pq {
     display: block !important;
+  }
+  .cardinal {
+    display: inline !important;
   }
   div#fundo-preto {
     padding: 0;
