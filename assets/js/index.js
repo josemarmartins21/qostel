@@ -36,11 +36,13 @@ janela.addEventListener('resize', mostrarHamburguer)
 
 menu.addEventListener('click', (e) => {
     if (e.target.id == 'menu-hamburguer') {
-        if (!menuContainer.classList.contains('menu-open')) {
+        if (! menuContainer.classList.contains('menu-open')) {
             addGap(header, '35px')
+            setPadding(header, '15px')
             menuContainer.classList.add('menu-open')
             menuContainer.style.maxHeight = menuContainer.scrollHeight + 'px'
         } else {
+            setPadding(header, '0px')
             menuContainer.style.maxHeight = '0px'
             removeAllGap(header)
             menuContainer.classList.remove('menu-open')
@@ -66,6 +68,7 @@ janela.addEventListener('scroll', () => {
         if (menuContainer.classList.contains('menu-open')) {
             menuContainer.style.maxHeight = '0px'
             menuContainer.classList.remove('menu-open')
+            setPadding(header, '0px')
             removeAllGap(header)
         }
         
@@ -77,6 +80,10 @@ janela.addEventListener('scroll', () => {
 
 function addGap(element, size) {
     element.style.gap = size
+}
+
+function setPadding(element, size) {
+    element.style.paddingBottom = size
 }
 
 function removeAllGap(element) {

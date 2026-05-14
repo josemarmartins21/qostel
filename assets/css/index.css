@@ -74,6 +74,10 @@ header {
   padding: 10px 10px 0 10px;
 }
 
+#logo-pq {
+  display: none !important;
+}
+
 menu {
   align-self: center;
 }
@@ -265,13 +269,14 @@ aside.difereciais-card > span {
   border-radius: 10px;
   box-shadow: var(--card-sombras);
   cursor: pointer;
+  border-left: 4px solid var(--cor-botoes);
   flex: 0 1 360px;
-  transition: transform 0.3s;
-  transition-timing-function: ease-out;
+  transition: border-width 0.3s;
+  transition-timing-function: ease;
 }
 
 .depoimento:hover {
-  transform: scale(1.05);
+  border-left-width: 10px;
 }
 
 .depoimento p {
@@ -786,16 +791,23 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   }
   /* header */
   header {
-    position: absolute;
+    position: fixed;
     /* MOD: mantém consistência do padding do header em mobile */
     background-color: var(--cor-principal);
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 25px auto;
-    padding: 8px 5px 10px 5px !important;
+    padding: 5px 5px 0px 5px;
+    z-index: 100;
   }
   header .hamburguer-container {
     padding-top: 30px;
+  }
+  img#logo-lg {
+    display: none;
+  }
+  #logo-pq {
+    display: block !important;
   }
   div#fundo-preto {
     padding: 0;
@@ -843,7 +855,7 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
     flex: 0 1 40%;
   }
   #logo img {
-    width: 150px;
+    width: 130px;
   }
   .hamburguer-container {
     text-align: right;
@@ -913,13 +925,7 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
     padding: 20px;
   }
   .depoimento:hover {
-    transform: none;
-  }
-  .depoimento:active {
-    transform: scale(0.98);
-  }
-  .depoimento:active {
-    transform: scale(0.98);
+    border-left-width: 3px !important;
   }
   /* Perguntas frequentes */
   section#perguntas {
@@ -1078,6 +1084,9 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   }
   .depoimento {
     flex-basis: 320px;
+  }
+  .depoimento:hover {
+    border-left-width: 3px !important;
   }
   /** DIFERENCIAIS DA EMPRESA */
   section#diferenciais {

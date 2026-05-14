@@ -23,7 +23,9 @@
         <header id="header-container">
             <div id="logo">
                 <a href="https://qostel.co.ao/">
-                    <img src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel">
+                    <img src="../../assets/images/qos-logo-sem-fundo.png" alt="logo da qos_tel" id="logo-lg">
+
+                    <img src="../../assets/images/qos-logo-sem-fundo-pq.png" alt="logo da qos_tel" id="logo-pq">
                 </a>
 
             </div>
