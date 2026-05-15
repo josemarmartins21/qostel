@@ -10,7 +10,7 @@
                     <p><?= $testimony->cargo ?></p>
                 </div>
         
-                <p>
+                <p class="depoimento-content">
                     <?= htmlspecialchars(textLimit($testimony?->testemunho ?? '', 140))  ?>
                 </p>
             </div>

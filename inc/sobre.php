@@ -1,6 +1,7 @@
 <!-- Secção da empresa -->
 <section id="sobre">
     <h2>Quem Somos?</h2>
+    <?php include __DIR__ . "/components/barra.php"; ?>
     
     <article id="sobre-container">
         <aside id="image-container">

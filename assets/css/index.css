@@ -65,6 +65,8 @@ h2 {
   background-position: center top !important;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   transition: background-image 0.5s ease-in-out;
 }
 
@@ -146,9 +148,9 @@ section#hero {
 }
 
 #hero a {
-  color: white;
+  color: black;
   text-decoration: none;
-  background-color: orangered;
+  background-color: var(--cor-botoes);
   font-weight: bold;
   width: 150px;
   text-align: center;
@@ -283,9 +285,10 @@ aside.difereciais-card > span {
   border-left-width: 10px;
 }
 
-.depoimento p {
+.depoimento p.depoimento-content {
   font-size: 18px;
   font-style: italic;
+  color: rgba(0, 0, 0, 0.534);
 }
 
 .depoimento div {
@@ -450,8 +453,9 @@ section#suporte p {
 }
 
 section#suporte a {
-  color: var(--cor-destaque);
   background-color: #fff;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;

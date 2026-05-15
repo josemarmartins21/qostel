@@ -7,7 +7,7 @@
                     >
                 </a>
 
-            <a href="http://app.qostel.co.ao/dashboard" class="zona-restrita" target="_blank">
+            <a href="http://app.qostel.co.ao/" class="zona-restrita" target="_blank">
                 <i class="bi bi-lock-fill"></i> Zona Restrita
             </a>
         </div>

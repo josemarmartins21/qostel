@@ -67,7 +67,7 @@
             <a href="#diferenciais">Ver Serviços</a>
         </section>
 
-        <a href="https://wa.me/244924910904?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20internet." class="float-btn">
+        <a href="https://wa.me/244924910904?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20internet." class="float-btn" target="_blank">
             <i class="bi bi-whatsapp"></i>  
         </a>
 </div>

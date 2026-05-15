@@ -1,8 +1,8 @@
 <section id="prova-social-container">
     <div class="fundo-preto-2">
-        <h2>Nossos <mark>Principais Clientes</mark></h2>
+        <h2>Nossos Principais Clientes</h2>
         <?php include __DIR__ . "/components/barra.php"; ?>
-
+        
         <div id="logos-container">
             <?php foreach($renownedClients->getResources() as $client): ?>
                 <a href="<?= htmlspecialchars($client->url) ?>" title="<?= htmlspecialchars($client->name) ?>">
