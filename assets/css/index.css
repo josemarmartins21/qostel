@@ -811,6 +811,9 @@ section#contactos div#contactos-container #form-suporte input[type=submit]:hover
   header .hamburguer-container {
     padding-top: 30px;
   }
+  header .hamburguer-container img {
+    width: 27px;
+  }
   img#logo-lg {
     display: none;
   }

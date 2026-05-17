@@ -31,7 +31,9 @@
             </div>
             
             <div class="hamburguer-container">
-                <i class="fa-solid fa-bars hamburguer" id="menu-hamburguer"></i>
+                <!-- <i class="fa-solid fa-bars hamburguer" ></i> -->
+
+                <img src="../../assets/images/menu.png" id="menu-hamburguer" alt="menu hamburguer" class="hamburguer">
             </div>
             
             <menu id="menu-container">
